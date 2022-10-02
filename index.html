@@ -10,72 +10,150 @@
 </head>
 <style>
     *{
-        font-size: 1.2vw;
+        font-size: 1vw;
+        color: whitesmoke;
     }
     body{
         background-image: url(img2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         color: whitesmoke;
-        font-size: 1.2vw;
+        font-size: 1vw;
     }
     a{
         text-decoration: none;
         color: whitesmoke;
         font-weight: 500;
+        font-size: .9vw;
+    }
+    #padding{
         
     }
-    #outer{
-        
+    .shadow{
+        background-color: black;
+        border: 0px solid black;
+        border-radius: 4%;
+        -moz-box-shadow:    3px 3px 5px 6px black;
+        -webkit-box-shadow: 3px 3px 5px 6px black;
+        box-shadow:         3px 3px 5px 6px black;
     }
-    #left-body{
+    .border-radius{
+        border-radius: 4%;
     }
-    #profile-pic{
-        border-radius: 5px;
+    #footer{
+        /* position: absolute;
+        bottom: 0%;
+        padding: 2% ; */
     }
     .footer-links{
         color: grey;
         font-size: small;
         font-weight: 700;
         padding-left: 2%;
-        font-size: 0.9vw;
+        font-size: 0.8vw;
+    }
+    .first-link{
+        color: grey;
+        font-size: small;
+        font-weight: 700;
+        font-size: 0.8vw;
+        padding-left: 0%;
     }
 </style>
 <body>
     <div id="outer">
-        <div id="left-body" class="container col-3 m-5 p-0">
-            <div class="text-center bg-black border rounded">
-                <div>
-                    <div id="profile-pic">
-                        <img src="img1.png" alt="" width="100%">
-                    </div>
-                    <h2 class="">Abdul Ashfaque M</h2>
-                    <h4 class="text-success fs-5">Full Stack Web Developer</h4>
+        <div class="row m-5">
+            <div class="container col-1"></div>
+            <div id="left-body" class="container col-3 p-0 shadow">
+                <div class="text-center ">
                     <div>
-                        <span>
-                            <h4 class="text-success fs-5">In MEA(R)N</h4>
-                        </span>
+                        <div id="profile-pic">
+                            <img src="img1.png" alt="" width="100%" class="border-radius">
+                        </div>
+                        <h2 class="">Abdul Ashfaque M</h2>
+                        <h4 class="text-success fs-5">Full Stack Web Developer</h4>
+                        <div>
+                            <span>
+                                <h4 class="text-success fs-5">In MEA(R)N</h4>
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <hr class="ms-2 me-2">
-                </div>
-                <div class="pb-3">
-                    <a href="Resume.pdf" download="Abdul_Asfaque_CV">Download CV </a>
-                    <span class="p-1"> | </span>
-                    <a href=""> Contact Me</a>
+                    <div>
+                        <hr class="ms-2 me-2">
+                    </div>
+                    <div class="pb-3">
+                        <a href="Resume.pdf" download="Abdul_Asfaque_CV">Download CV</a>
+                        <span class="p-1"> | </span>
+                        <a href="">Contact Me</a>
+                    </div>
                 </div>
             </div>
+            <div id="right-body" class="container col-6 mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae. Fugiat architecto totam voluptates et nesciunt maxime 
+                distinctio necessitatibus fuga inventore quidem commodi, nisi nam enim quas minima libero accusamus?
+            </div>
         </div>
-        <div id="right-body" class="container col-9"></div>
-        <div id="footer" class="container-fluid col-6">
-            <a href="www.linkedin.com/in/abdul-ashfaque-m-103a4b16b" class="footer-links">LinkedIn</a>
+        <!-- <div id="footer" class="container col-6">
+            <a href="www.linkedin.com/in/abdul-ashfaque-m-103a4b16b" class="first-link">LinkedIn</a>
             <a href="https://twitter.com/i/flow/login" class="footer-links">Twitter</a>
             <a href="https://www.facebook.com/abdul.ashfaque.33" class="footer-links">Facebook</a>
             <a href="https://www.instagram.com/accounts/login/" class="footer-links">Instagram</a>
             <a href="myphotos.html" class="footer-links">Photos</a>
             <a href="" class="footer-links">ashfaqueabdul03@gmail.com</a>
             <a href="" class="footer-links">+91 7356566616</a>
+        </div> -->
+        <div>
+            <nav class=" container col-6 navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon toggle-light"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-secondary" aria-current="page" href="#">LinkedIn</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Twitter</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Facebook</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Instagram</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Photos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">ashfaqueabdul03@gmail.com</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">+91 7356566616</a>
+                      </li>                     
+                      <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                          <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                  </div>
+                </div>
+              </nav>
         </div>
     </div>
 </body>
