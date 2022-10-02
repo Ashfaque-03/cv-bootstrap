@@ -44,44 +44,36 @@
     .border-radius{
         border-radius: 4%;
     }
-    #right-body{
-
+    #header{
+        /* width: 70vmax;
+        height: 2vmax;
+        position: fixed;
+        top: 0%; */
     }
-    #data-descriptions{
-        width: 50vmax;
-        height: 30vmax;
-        margin-top: 30px;
-        padding: 1vmax;
-        float: left;
-        border-radius: 10px;
-        line-height: 2vmax;
-        overflow: scroll;
-        overflow-x: hidden;
+    #left-body{
+        position: sticky;
+        top: 15%;
     }
-    #data-descriptions::-webkit-scrollbar{
-        width: 0px;
-    }
-    #data-descriptions::-webkit-scrollbar-thumb:hover {
-        background: whitesmoke;
-        border-radius: 10px;
+    #resume-details{
+        
     }
     #objective{
-        width: 46vmax;
+        width: 48vmax;
     }
     #psnl-box{
-        width: 46vmax;        
-        height: 280px;
+        width: 50vmax;        
+        height: 16vmax;
     }
     .sub-heading{
         color: #00FFFF;
         margin-bottom: 10px;
-        font-size: 150%;
+        /* font-size: 150%; */
     }
     #psln-data{
-        width: 19vmax;
+        width: 20vmax;
         /* border-right: 2px solid #454545; */
         float: left;
-        margin-right: 30px;
+        margin-right: 3vmax;
     }
     tr{
         line-height: 4vmax;
@@ -94,15 +86,15 @@
         font-size: 1vmax;
     }
     #divider{
-        width: 120px;
+        width: 14vmax;
     }
     .marking{
         padding: .50vw;
         font-size: 1.2vmax;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding-right: 25px;
+        padding-right: 2.5vmax;
         border-radius: 5px;
-        margin-bottom: 50px;
+        margin-bottom: 5vmax;
         font-weight: 900;
         background-color: yellow;
         opacity: .6;
@@ -114,33 +106,33 @@
         float: left;
     }
     .fontsize{
-        font-size: 1uvmax;
+        font-size: 1vmax;
         text-align: right;
     }
     #edu-box{
-        width: 100%;
-        height: 320px;
-        
+        float: none;
+        width: 50vmax;
     }
     .educations{
-        width: 300px;
-        height: 230px;
+        width: 21vmax;
+        height: 14vmax;
         float: left;
-        border: 2px solid whitesmoke;
-        border-radius: 10px;
-        margin: 10px;
-        padding: 10px;
+        border: .1vmax solid whitesmoke;
+        border-radius: 1vmax;
+        margin: 1vmax;
+        padding: .6vmax;
         background-image: url(black-bg1.jpeg);
         background-size: cover;
         text-align: left;
     }
     .scroll-box{
-        width: 100%;    
+        width: 48vmax;    
+        height: auto;
         overflow: scroll;
         overflow-y: hidden;
     }
     .scroll-box::-webkit-scrollbar{
-        height: 10px;
+        height: .8vmax;
     }
     /* .scroll-box::-webkit-scrollbar-track {
         width: px;
@@ -148,15 +140,11 @@
     } */
     .scroll-box::-webkit-scrollbar-thumb:hover {
         background: whitesmoke;
-        border-radius: 10px;
+        border-radius: 1vmax;
         width: 0px;
   }
     #edu-scroll{
-        width: 145%;
-    }
-
-    .l-h{
-        line-height: 30px;
+        width: 70vmax;
     }
     .edu-line2{
         float: left; 
@@ -165,34 +153,35 @@
     }
     .edu-branch{
         font-style: italic;
-        margin-left: 22px;
-        font-size: 12px;
+        margin-left: 1vmax;
+        font-size: .79vmax;
     }
     .edu-name{
-        font-size: 24px;
+        font-size: 1.5vmax;
         color: white;
         font-weight: 900;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 1vmax;
     }
     .edu-institute{
         text-align: right;
         font-style: italic;
-        font-size: 12px;
+        font-size: .7vmax;
     }
 
     .cgpa-box{
-        margin-top: 5px;
-        border-right: 1px solid #454545;
+        margin-top: .5vmax;
+        margin-bottom: 1vmax;
+        border-right: .1vmax solid #454545;
         float: left;
     }
     .marks-img{
-        width: 100px;
-        height: 100px;
-        margin-left: 20px;
-        margin-right: 35px;
+        width: 6.5vmax;
+        height: 6.5vmax;
+        margin-left: -8vmax;
+        margin-right: 2vmax;
         background-size: cover;
-        border-radius: 10px;
+        border-radius: .5vmax;
         opacity: .7;
     }
     .bg1{
@@ -205,53 +194,135 @@
         background-image: url(grade10.png);
     }
     .university-box{
-        margin-left: 35px;
-        margin-top: 10px;
-        width: 70px;
-        height: 90px;
+        margin-left: 2.4vmax;
+        margin-top: 1vmax;
+        width: 5vmax;
+        height: 5.8vmax;
         border-radius: 0px;
         float: left;
     }
     .img-ktu{
-        border: 3px solid white;
+        border: .3vmax solid white;
         background-color: whitesmoke;
-        border-radius: 10px;
+        border-radius: .8vmax;
     }
     .state-box{
-        width: 80px;
-        height: 80px;
-        margin-left: 25px;
-        margin-top: 19px;
+        width: 6.1vmax;
+        height: 6.1vmax;
+        margin-left: 1.9vmax;
+        margin-top: 1vmax;
         border-radius: 0px;
         float: left;
     }
     .grade-box{
-        margin-top: 5px;
+        margin-top: .7vmax;
         border-right: 1px solid #454545;
         float: left;
     }
+    #service-scroll{
+        width: 97vmax;
+    }
+    #service-box{
+        width: 10vmax;
+        height: 15vmax;
+        margin-top: 1vmax;
+    }
+    .services{
+        width: 15vmax;
+        height: 8vmax;
+        float: left;
+        border: .1vmax solid lightgray;
+        border-radius: .8vmax;
+        margin: .1vmax;
+        margin-left: 1%;
+        margin-top: 1vmax;
+    }
+    .b-r{
+        border-radius: .8vmax;
+    }
+    #achievement-box{
+        width: 48vmax;
+        height: 15vmax;
+    }
+    #achievements{
+        border: 1vmax solid whitesmoke; 
+        padding: 1vmax;   ; 
+        margin-left: 1vmax; 
+        border: double;
+    }
+    #lang-box{
+        width: 50vmax;
+        height: 12vmax;
+    }
+    .lang{
+        width: 22vmax;
+        font-weight: 700;
+        float: left;
+    }
+    .font-lang{
+        font-size: 1.2vmax;
+    }
+    #star-mal{
+        width: 13vmax;
+        height: 2.8vmax;
+        margin-top: 1vmax;
+        background-image: url(5_star.png);
+        background-size: cover;
+        margin-left: -.5vmax;
+    }
+    #star-eng{
+        width: 13vmax;
+        height: 2.8vmax;
+        margin-top: 1vmax;
+        background-image: url(4_star.png);
+        background-size: cover;
+        margin-left: -.5vmax;
+    }
+    #fun-box{
+        padding-top: 1vmax;
+        width: 50vmax;
+        height: 10vmax;
+    }
+    .funs{
+        width: 10vmax;
+        height: 10vmax;
+        float: left;
+        border: .1vmax solid whitesmoke;
+        border-radius: 100%;
+        margin: 1.1%;
+    }
+    .b-c{
+        border-radius: 100%;
+    }
+    #quote-symbol{
+        font-size: 4vmax;
+        margin-left: 1vmax;
+    }
+    #quote-symbol1{
+        font-size: 4vmax;
+        margin-left: 90%;
+    }
+    #quotes{
+        font-size: 1.25vmax;
+        padding-left: 4.1vmax;
+        padding-right: 5vmax;
+        text-align: center;
+        font-style: italic;
+        margin-top: -2vmax;
+    }
+    #imagebox{
+        width: 100px;
+        height: 100px;
+        border: 1px solid whitesmoke;
+        border-radius: 50px;
+    }
     #footer{
-        /* position: absolute;
-        bottom: 0%;
-        padding: 2% ; */
-    }
-    .footer-links{
-        color: grey;
-        font-size: small;
-        font-weight: 700;
-        padding-left: 2%;
-        font-size: 0.8vw;
-    }
-    .first-link{
-        color: grey;
-        font-size: small;
-        font-weight: 700;
-        font-size: 0.8vw;
-        padding-left: 0%;
+        padding-bottom: 6vmax;
     }
 </style>
 <body>
     <div id="outer">
+        <div id="header" class="row container"></div>
         <div class="row mt-5 mb-5 ms">
             <div class="col-1"></div>
             <div id="left-body" class="container-fluid col-3 p-0 shadow h-50">
@@ -278,21 +349,21 @@
                     </div>
                 </div>
             </div>
-            <div id="right-body" class="container-fluid col-7" >
-                <div class="" id="data-descriptions">
-                        <!-- about me box -->
+            <div id="right-body" class="container-fluid col-7 mt-5" >
+                <div class="" id="resume-details">                <!-- id="data-descriptions" -->
+                            <!-- about me box -->
                     <div id="objective">
-                        <h2 class="sub-heading">About Me</h2>
-                        <p style="text-align: justify; text-indent: 50px;">
+                        <h3 class="sub-heading">About Me</h3>
+                        <p style="text-align: justify; text-indent: 5vmax; line-height: 2.05;">
                             Hello! I'm Abdul Ashfaque M. Full Stack Web Developer in MEA(R)N from Trivandrum, Kerala.
                             I'm a fresher who Seeking a challenging position in a reputed organization where I can learn new skills, 
                             expand my knowledge, and leverage my learnings. I am comfortable to work either as a front-end developer 
                             or back-end developer or both.
                         </p>
                     </div>
-                        <!-- personal details box -->
+                            <!-- personal details box -->
                     <div id="psnl-box">
-                        <h2 class="sub-heading">Personal Details</h2>  <!-- personal details box -->
+                        <h3 class="sub-heading">Personal Details</h3>  <!-- personal details box -->
                         <div id="psln-data">                     
                             <table>                            
                                 <tr>
@@ -337,7 +408,7 @@
                     </div>
                             <!-- education details box -->
                     <div id="edu-box"> 
-                        <h2 class="sub-heading">Education</h2>
+                        <div class="col-3"><h3 class="sub-heading">Education</h3></div>
                         <div class="scroll-box">                        
                             <div id="edu-scroll">
                                 <div class="educations">    <!-- btech box -->
@@ -372,19 +443,81 @@
                             </div>
                         </div>
                     </div>
-
-                </div>
+                            <!-- service details box -->
+                    <div id="service-box">
+                        <div class=""><h3 class="sub-heading">My Services</h3></div>
+                        <div class="scroll-box" style="height: 10vmax; float: none;">                        
+                            <div id="service-scroll">
+                                <div class="services"><img src="mdb.jpg" alt="" width="100%" height="100%" class="b-r" oncontextmenu="return false;"></div>
+                                <div class="services"><img src="express.png" alt="" width="100%" height="100%"class="b-r" oncontextmenu="return false;"></div>
+                                <div class="services"><img src="angular.png" alt="" width="100%" height="100%"class="b-r" oncontextmenu="return false;"></div>
+                                <div class="services"><img src="react1.jpg" alt="" width="100%" height="100%"class="b-r" oncontextmenu="return false;"></div>
+                                <div class="services"><img src="node.jpg" alt="" width="100%" height="100%"class="b-r" oncontextmenu="return false;"></div>
+                                <div class="services"><img src="html_css_js_bootstrap.jpg" alt="" width="100%" height="100%"class="b-r" oncontextmenu="return false;"></div>
+                                <div class="services" style="border: none; margin-bottom: 70px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                            <!-- acheivement details box -->
+                    <div id="achievement-box">
+                        <div class="col-4"><h3 class="sub-heading" style="margin-bottom: 2vmax;">My Achievements</h3></div>
+                        <div id="achievements">
+                            <p>
+                                <li style="font-size: 1.3vmax ;">
+                                    Participated in 9th National Ringball Championship (2022) for Kerala held <span style="margin-left:1.7vmax ;">&#64</span> Panipat, Haryana
+                                </li>
+                            </p> 
+                        </div>                    
+                    </div>       
+                            <!-- language details box -->
+                    <div id="lang-box">
+                        <div class="col-4"><h3 class="sub-heading" style="margin-bottom: 2vmax;">Languages</h3></div>
+                        <div class="lang">
+                            <p class="font-lang">Malayalam</p>
+                            <div id="star-mal"></div>
+                        </div>  
+                        <div class="lang">
+                            <p class="font-lang">English</p>
+                            <div id="star-eng"></div>
+                        </div>                  
+                    </div>
+                            <!-- fun/hobbies/intrested details box -->
+                    <div>
+                        <div class="col-4"><h3 class="sub-heading">Fun Facts</h3></div>
+                        <div id="fun-box">
+                            <div class="funs"><img class="b-c" src="coding1.jpg" alt="" width="100%" height="100%" class="b-r" oncontextmenu="return false;"></div>
+                            <div class="funs"><img class="b-c" src="bb1.jpg" alt="" width="100%" height="100%" class="b-r" oncontextmenu="return false;"></div>
+                            <div class="funs"><img class="b-c" src="music1.jpg" alt="" width="100%" height="100%" class="b-r" oncontextmenu="return false;"></div>
+                            <div class="funs"><img class="b-c" src="pecicart.jpg" alt="" width="100%" height="100%" class="b-r" oncontextmenu="return false;"></div>
+                        </div>
+                    </div>
+                            <!-- quotes -->
+                    <div>
+                        <div class="col-4"><h3 class="sub-heading" style="margin-bottom: 1vmax">Quote</h3></div>                 
+                        <span id="quote-symbol">“</span><span id="quote-symbol1">❞</span>
+                        <p id="quotes">In some ways, programming is like painting. You start with a blank canvas and certain basic
+                        raw materials. You use a combination of science, art, and craft to determine what to do with them.</p>
+                    </div>
+                            <!-- pic last -->
+                    <div id="imagebox" class="container p-0">
+                        <img src="img3.jpg" alt="" height="100%" width="100%" style="border-radius: 100%;" oncontextmenu="return false;">
+                    </div>
+                    <div style="text-align: center; margin: 1vmax;">
+                        <h2>Abdul Ashfaque M</h2>
+                        <h5>Full Stack Web Developer</h5>
+                    </div>
+        </div>
             </div>
         </div>
 
-        <div>
+        <div id="footer">
             <nav class="container col-6 navbar navbar-expand-lg navbar-dark">
-                <button class="navbar-toggler" style="margin-left:-35%; margin-right:10%;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" style="margin-left:-25%; margin-right:10%;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- <a class="navbar-brand mr-auto" href="#">NavBar</a>                -->           
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-5 mb-2 mb-lg-0 mt-3">
+                    <ul class="navbar-nav ms-4 mb-2 mb-lg-0 mt-3">
                       <li class="nav-item">
                         <a class="nav-link active text-secondary fw" aria-current="page" href="#">LinkedIn</a>
                       </li>
