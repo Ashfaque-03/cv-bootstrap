@@ -15,6 +15,7 @@
         margin: 0%;
     }
     body{
+        width: 98%;
         background-image: url(img2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -47,25 +48,28 @@
 
     }
     #data-descriptions{
-    width: 750px;
-    height: 469px;
-    margin-top: 30px;
-    margin-left: 50px;
-    padding: 20px;
-    float: left;
-    border-radius: 10px;
-    line-height: 35px;
-    overflow: scroll;
-    overflow-x: hidden;
+        width: 50vw;
+        height: 30vmax;
+        margin-top: 30px;
+        padding: 1vmax;
+        float: left;
+        border-radius: 10px;
+        line-height: 2.5vmax;
+        overflow: scroll;
+        overflow-x: hidden;
     }
     #data-descriptions::-webkit-scrollbar{
-        width: 50px;
+        width: 0px;
+    }
+    #data-descriptions::-webkit-scrollbar-thumb:hover {
+        background: whitesmoke;
+        border-radius: 10px;
     }
     #objective{
-        width: 100%;
+        width: 46vmax;
     }
     #psnl-box{
-        width: 100%;
+        width: 46vmax;        
         height: 280px;
     }
     .sub-heading{
@@ -74,28 +78,27 @@
         font-size: 150%;
     }
     #psln-data{
-        width: 45.2%;
+        width: 19vmax;
         /* border-right: 2px solid #454545; */
         float: left;
         margin-right: 30px;
     }
     tr{
-        line-height: 60px;
+        line-height: 4vmax;
         text-align: left;
     }
-    th{
+    /* th{
         color: white;
-        border-radius: 5px;
-    }
+    } */
     td{
-        font-size: medium;
+        font-size: 1vmax;
     }
     #divider{
         width: 120px;
     }
     .marking{
-        padding: 5px;
-        font-size: 18px;
+        padding: .50vw;
+        font-size: 1.2vmax;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-right: 25px;
         border-radius: 5px;
@@ -106,12 +109,12 @@
         color: black;
     }
     #contact-data{ 
-        width: 50%;
+        width: 25vmax;
         margin-bottom: 20px;
         float: left;
     }
     .fontsize{
-        font-size: 15px;
+        font-size: 1uvmax;
         text-align: right;
     }
     #edu-box{
@@ -132,9 +135,9 @@
         text-align: left;
     }
     .scroll-box{
-    width: 97%;    
-    overflow: scroll;
-    overflow-y: hidden;
+        width: 98%;    
+        overflow: scroll;
+        overflow-y: hidden;
     }
     .scroll-box::-webkit-scrollbar{
         height: 10px;
@@ -146,11 +149,10 @@
     .scroll-box::-webkit-scrollbar-thumb:hover {
         background: whitesmoke;
         border-radius: 10px;
-        width: 100px;
+        width: 0px;
   }
     #edu-scroll{
-        width: 150%;
-        height: auto;
+        width: 145%;
     }
 
     .l-h{
@@ -250,9 +252,9 @@
 </style>
 <body>
     <div id="outer">
-        <div class="row m-5">
-            <div class="container col-1"></div>
-            <div id="left-body" class="container col-3 p-0 shadow h-75">
+        <div class="row mt-5 mb-5 ms">
+            <div class="col-1"></div>
+            <div id="left-body" class="container-fluid col-3 p-0 shadow h-50">
                 <div class="text-center ">
                     <div >
                         <div id="profile-pic">
@@ -276,7 +278,7 @@
                     </div>
                 </div>
             </div>
-            <div id="right-body" class="container col-7 mt-3 h-75" >
+            <div id="right-body" class="container-fluid col-7" >
                 <div class="" id="data-descriptions">
                         <!-- about me box -->
                     <div id="objective">
@@ -316,7 +318,7 @@
                             <table>
                                 <tr class="contact-row">
                                     <th colspan=""> <mark class="marking">Home</mark></th> 
-                                    <td class="fontsize" colspan="3" style="font-size: 13px;">SNRA-118 A, TC-49/418(5)</td>
+                                    <td class="fontsize" colspan="3" style="font-size: .8vmax;">SNRA-118 A, TC-49/418(5)</td>
                                 </tr>
     
                                 <tr class="contact-row">
