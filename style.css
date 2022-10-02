@@ -280,6 +280,11 @@ td{
 .b-c{
     border-radius: 100%;
 }
+#quote-box{
+    padding-top: 1vmax;
+    width: 50vmax;
+    height: 15vmax;
+}
 #quote-symbol{
     font-size: 4vmax;
     margin-left: 1vmax;
