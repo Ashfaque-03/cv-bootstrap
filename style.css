@@ -13,16 +13,15 @@ body{
     color: whitesmoke;
 }
 #outer{
-    margin-left: 5vmax;    
+    /* margin-left: 0vmax;     */
     /* display: block;
     justify-content: center;
     align-items: center; */
 }
 #left-body{
     width: 30vmax;
-    margin-left: 5vmax;    
+    margin-left: 11vmax;    
     margin-top: 3vmax;
-    margin-right: 2vmax;
     float: left;
 }
 .links{
@@ -44,6 +43,8 @@ body{
 }
 #right-body{
     margin-top: 5vmax;
+    margin-right: 10px;
+    margin-left: 2vmax;
     float: left;
 }
 #resume-details-scroll{
@@ -340,17 +341,18 @@ td{
 #footer{
     width: 100%;
     margin-top: 25px;
-    margin-left: 1vmax;    
-    /* padding-bottom: 3vmax; */
-    float: left;
-    position: relative;
+    padding-left: 2vmax;    
+    /* border-radius: 3vmax; */
+    position: absolute;
     bottom: 0%;
+    float: none;
+    /* background-color: black; */
 }
 .footer-link{
     border-radius: 1vmax;
     font-size: 15px;
     color: grey;
-    margin-left: 67px;
+    margin-left: 5vmax;
 }
 .footer-link:hover{
     color: white;
